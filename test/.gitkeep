@@ -1,0 +1,30 @@
+// supplyChain.deployed().then(function(instance) {return instance.addParticipant("A","passA","0xe305d6F027Ac9B7f1Ece895c9644dC6B63FB639F","Manufacturer") });
+// supplyChain.deployed().then(function(instance) {return instance.addParticipant("B","passA","0xD4b4f723d0700B6E8eDd7A351503c73B65567395","Manufacturer") });
+// supplyChain.deployed().then(function(instance) {return instance.addParticipant("C","passA","0x71856271C5Fa206f01BA1B406A758655904f0fbA","Manufacturer") });
+// supplyChain.deployed().then(function(instance) {return instance.addParticipant("D","passA","0x6938260843D77F1D6C9b7ABD224D2F6d6989a914","Manufacturer") });
+// supplyChain.deployed().then(function(instance) {return instance.addParticipant("E","passA","0x0E1A45a714Fcb3C9C2aa8443779a052045ae4c8F","Consumer") });
+// supplyChain.deployed().then(function(instance) {return instance.addParticipant("F","passA","0x2809824B62059410725D0AC6182858CaE2792dE0","Supplier") });
+// supplyChain.deployed().then(function(instance) {return instance.addParticipant("G","passA","0xb543b81b76504Fa9fF0F79CFe86528E758c44eac","Supplier") });
+// supplyChain.deployed().then(function(instance) {return instance.addParticipant("H","passA","0x9f016e1Dce817d1Ac6Fc096d0D5E03b1E3fD5025","Consumer") });
+
+
+
+// supplyChain.deployed().then(function(instance) {return instance.getParticipant(5) });
+
+// supplyChain.deployed().then(function(instance) {return instance.addProduct(0,"ABC", "100", "123", 11) });
+// supplyChain.deployed().then(function(instance) {return instance.addProduct(0,"DEF", "101", "456", 12) });
+
+// supplyChain.deployed().then(function(instance) {return instance.addProduct(1,"GHI", "102", "789", 13,{from: "0xD4b4f723d0700B6E8eDd7A351503c73B65567395"}) });
+// supplyChain.deployed().then(function(instance) {return instance.addProduct(1,"JKL", "103", "135", 14,{from: "0xD4b4f723d0700B6E8eDd7A351503c73B65567395"}) });
+// supplyChain.deployed().then(function(instance) {return instance.addProduct(2,"MNO", "104", "357", 15,{from: "0x71856271C5Fa206f01BA1B406A758655904f0fbA"}) });
+// supplyChain.deployed().then(function(instance) {return instance.addProduct(2,"PQR", "105", "759", 16,{from: "0x71856271C5Fa206f01BA1B406A758655904f0fbA"}) });
+
+// supplyChain.deployed().then(function(instance) {return instance.getProduct(0) });
+// supplyChain.deployed().then(function(instance) {return instance.getProduct(1) });
+
+
+// supplyChain.deployed().then(function(instance) {return instance.newOwner(2, 5, 2, {from: "0xD4b4f723d0700B6E8eDd7A351503c73B65567395"}) });
+
+
+
+// supplyChain.deployed().then(function(instance) {return instance.getProvenance(0) });
